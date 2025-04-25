@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jessy Store</title>
+  <link rel="icon" href="Screenshot__41_-removebg-preview.png" type="image/png" />
+  <link rel="stylesheet" href="style.css" />
+
+
+
+
+</head>
+
+<body>
+
+  <div class="bala">
+    <nav class="dir">
+      <div class="location-box">
+        <span class="label">Search Location :<span><input class="sear" type="text"
+              placeholder="Search The Location..." /></span></span>
+        <span class="h">Address : <span
+            style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;color:rgba(255, 37, 37, 0.712);">Vinayagar
+            Kovil Stop , Thoothukudi </span></span>
+      </div>
+    </nav>
+  </div>
+
+
+  <nav class="navbar">
+
+    <div>
+      <img class="size" src="/Assets/Navbar-1.png" alt="">
+    </div>
+
+    <div class="searchra">
+      <input type="text" placeholder="Search for products..." />
+      <button id="searchBtn">🔍</button>
+    </div>
+
+
+    <ul class="nav-links">
+
+      <a href="#" class="raa" style="text-decoration: none;">
+        <ul class="fosize">Login/Sign <br>
+          <centre style="padding-left: 30px;">up</centre>
+        </ul>
+      </a>
+      <a href="Re.html"><img class="us" src="/Assets/Navbar-2.png" alt="user"></a>
+      <li style="margin-top: 10px;"><a href="">Home</a></li>
+      <li style="margin-top: 10px;"><a href="#maa">Products</a></li>
+      <li style="margin-top: 10px;"><a href="#">About</a></li>
+      <li style="margin-top: 10px;"><a href="#"><span class="cart">🛒</span></a>
+
+    </ul>
+  </nav>
+
+
+  <br>
+  <div class="bamu">
+    <div class="raj">
+      <div class="fon">JESSY STORE</div>
+      <div class="fontt">Shop With Us</div>
+    </div>
+    <img style="margin-left: 16%; margin-top: -12%;" src="/Assets/Home-page-1.png" alt="im">
+
+  </div>
+  <br>
+
+
+  <div class="divv">
+    <span class="division">FREE DELIVERY</span>
+    <span class="divvv">DISTANCE CHARGES APPLICABLE BASED ON PINCODE</span>
+    <span class="divvvv">FOR ORDERS </span>
+    <span class="divvvvv"> &#8377;499 % ABOVE</span>
+    <div class="dele">
+      <img class="left-image" src="/Assets/Home-page-2.png" alt="del-icon">
+      <div class="iconn-wrapper">
+        <img src="/Assets/Home-page-3.png" alt="Shop Icon" class="iconn" />
+        <div class="hover-text">View shop details</div>
+      </div>
+    </div>
+  </div>
+
+  <h1 id="rocck" style="position: absolute; padding-left:635px; padding-top:90px;">All Category</h1>
+  <div class="product-row">
+
+    <div class="product-circle-box">
+      <img style="width: 130px; height: 130px; margin-bottom: -1px;" src="/Assets/Category-1.png" alt="Product Image">
+    </div>
+
+
+    <div class="product-circle-box">
+      <img style="width: 130px; height: 130px; margin-bottom: -1px;" src="/Assets/Category-2.jpg" alt="Product Image">
+    </div>
+
+
+    <div class="product-circle-box">
+      <img style="width: 130px; height: 130px; margin-bottom: -1px;" src="/Assets/Category-3.jpg" alt="Product Image">
+    </div>
+
+
+    <div class="product-circle-box">
+      <img style="width: 130px; height: 130px; margin-bottom: -1px;" src="/Assets/Category-4.png" alt="Product Image">
+    </div>
+
+
+    <div class="product-circle-box">
+      <a href="#"><img style="width: 130px; height: 130px; margin-bottom: -5px;" src="/Assets/Category-5.jpg"
+          alt="Product Image"></a>
+    </div>
+
+
+    <span style="margin-left: 3.5%;">
+      <div onclick="toggleItems()" class="product-cir-box">
+        <img style=" width: 40%; height: 40%; margin-left: 30%; margin-top: 30%;" src="/Assets/Category-10.png" alt="arrow">
+      </div>
+    </span>
+
+  </div>
+
+
+  <div class="allcat">
+    <ul style="display: flex">
+      <ul class="ull">
+        <li>Rise Products</li>
+      </ul>
+
+      <ul class="ull" style="margin-left: 9.5%;">
+        <li>Masalas</li>
+      </ul>
+
+      <ul class="ull" style="margin-left: 7.5%;">
+        <li>Coffe & Tea Powders</li>
+      </ul>
+
+      <ul class="ull" style="margin-left: 8%;">
+        <li>Snacks</li>
+      </ul>
+
+      <ul class="ull" style="margin-left: 11%;">
+        <li>Cereals</li>
+      </ul>
+
+      <span style="margin-left: 11.5%; margin-top: -8%;">
+        <ul class="ull" onclick="toggleItems()" style="margin-left: 10.2%;">
+          <li id="toggleText">Show more</li>
+        </ul>
+      </span>
+  </div>
+
+  <!-- Hidden items -->
+
+
+  <div id="moreItems" class="flex-container-hidden-items">
+    <div class="product-rows">
+
+      <div class="product-circle-box">
+        <img style="width: 140px; height: 140px; margin-bottom: 5px;" src="/Assets/Category-6.png" alt="Product Image">
+      </div>
+
+
+      <div class="product-circle-box">
+        <img style="width: 130px; height: 130px; margin-bottom: -1px;" src="/Assets/Category-7.png" alt="Product Image">
+      </div>
+
+      <div class="product-circle-box">
+        <img style="width: 130px; height: 130px; margin-bottom: -1px;" src="/Assets/Category-8.jpg" alt="Product Image">
+      </div>
+
+      <div class="product-circle-box">
+        <img style="width: 130px; height: 130px; margin-bottom: -1px;" src="/Assets/Category-9.jpg" alt="Product Image">
+      </div>
+
+    </div>
+
+    <ul class="letters">
+      <li>Dry Fruits</li>
+    </ul>
+    <ul class="letterss">
+      <li>Beverages</li>
+    </ul>
+    <ul class="lettersss">
+      <li>Personal Care </li>
+    </ul>
+    <ul class="lette">
+      <li>Household Essentials</li>
+    </ul>
+
+    </ul>
+  </div>
+
+  <div class="top-off">
+    <h2>Top Offers</h2>
+    <img class="dis-img" src="/Assets/Discount-1.png" alt="dis-count-img">
+
+    <div>
+      <div class="card">
+        <div class="card-top">COMPO OFFER</div>
+        <div class="card-bottom">
+          <div class="tit"> Home Groceries </div>
+          <img class="img-compo" src="/Assets/Top-offers-1.png" alt="">
+          <a href="#">View offers &gt;</a>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="card">
+        <div class="card-top">SPECIAL OFFER</div>
+        <div class="card-bottom">
+          <div class="titl"> Fresh & Daily Essentials</div>
+          <img class="img-maligai" src="/Assets/Top-offers-2.png" alt="">
+          <a href="#">View offers &gt;</a>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="card">
+        <div class="card-top">CHILDRENS OFFER</div>
+        <div class="card-bottom">
+          <div class="title">Stationery Compo</div>
+          <img class="img-pen" src="/Assets/Top-offers-3.png" alt="">
+          <a href="#">View offers &gt;</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="maindiv">
+    <span class="let">Foods</span>
+    <div class="moveon">
+      <img class="imgsixzes" src="/Assets/Food-1.png" alt="">
+
+      <div class="o">
+        <div class="letproduct">
+          <img class="food-img" src="/Assets/Food-2.png" alt="Product 2">
+          <div class="rice-list">
+            <h4 style="margin-left:150px; margin-top: -130px;">Rise</h4>
+            <a href="#">Basmati Rice</a>
+            <a href="#">SeeragaSampa Rice</a>
+            <a href="#">Ponni Rice</a>
+            <a href="#">50/16 Rise</a>
+          </div>
+        </div>
+
+        <div class="letproduct">
+          <img class="food-img" src="/Assets/Food-3.jpeg" alt="Product 2">
+          <div class="rice-list">
+            <h4 style="margin-left:150px; margin-top: -130px;">Vegitables</h4>
+            <a href="#">Potato</a>
+            <a href="#">Onion</a>
+            <a href="#">Tomato</a>
+            <a href="#">Garlic</a>
+          </div>
+        </div>
+        <div class="letproduct">
+          <img class="food-img" src="/Assets/Food-4.png" alt="Product 2">
+          <div class="rice-list">
+            <h4 style="margin-left:150px; margin-top: -130px;">Wheat</h4>
+            <a href="#">Wheat Grains</a>
+            <a href="#">Wheat Grains</a>
+            <a href="#">Lokwan Wheat</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="oo">
+        <div class="letproduct">
+          <img class="food-imgs" src="/Assets/Food-5.png" alt="Product 2">
+          <div class="rice-list">
+            <h4 style="margin-left:150px; margin-top: -130px;">Pulses</h4>
+            <a href="#">Toor Dal</a>
+            <a href="#">Chana Dal</a>
+            <a href="#">Moong Dal</a>
+            <a href="#">Urad Dal</a>
+          </div>
+        </div>
+        <div class="letproduct">
+          <img class="food-imgs" src="/Assets/Food-6.png" alt="Product 2">
+          <div class="rice-list">
+            <h4 style="margin-left:150px; margin-top: -130px;">Spices</h4>
+            <a href="#">Red Chilli Powder</a>
+            <a href="#">Coriander Powder</a>
+            <a href="#">Black Pepper</a>
+            <a href="#">Turmeric</a>
+          </div>
+        </div>
+        <div class="letproduct">
+          <img class="food-imgs" src="/Assets/Food-7.jpg" alt="Product 2">
+          <div class="rice-list">
+            <h4 style="margin-left:150px; margin-top: -130px;">Seeds</h4>
+            <a href="#">Vegetable Seeds</a>
+            <a href="#">Hybrid Seeds</a>
+            <a href="#">Seed Spices</a>
+            <a href="#">Oil Seeds</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="ooo">
+        <div class="letproduct">
+          <img class="food-imgsss" src="/Assets/Food-8.png" alt="Product 2">
+          <div class="rice-list">
+            <h4 style="margin-left:150px; margin-top: -130px;">Juices</h4>
+            <a href="#">Basmati Rice</a>
+            <a href="#">Kolam Rice</a>
+            <a href="#">Ponni Rice</a>
+            <a href="#">Sona Masoori Rice</a>
+          </div>
+        </div>
+        <div class="letproduct">
+          <img class="food-i" src="/Assets/Food-9.png" alt="Product 2">
+          <div class="rice-list">
+            <h4 style="margin-left:150px; margin-top: -130px;">Dairy</h4>
+            <a href="#">Milk</a>
+            <a href="#">Curd </a>
+            <a href="#">Buttermilk</a>
+            <a href="#">Ghee</a>
+          </div>
+        </div>
+        <div class="letproduct">
+          <img class="food-imgss" src="/Assets/Food-10.png" alt="Product 2">
+          <div class="rice-list">
+            <h4 style="margin-left:150px; margin-top: -130px;">Desserts</h4>
+            <a href="#">Gulab Jamun</a>
+            <a href="#">Mysore Pak</a>
+            <a href="#">Badusha</a>
+            <a href="#">Milk Cake</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="raja">
+    <h1 class="letspace">Openning Offers Flat 80%</h1>
+    <h1 class="letspaces">Dont't Miss It</h1>
+    <img class="picra" src="/Assets/Openning-offer-1.png" alt="">
+  </div>
+
+  <main class="col">
+    <span class="maa">Categories You May Like</span>
+    <section class="product-list">
+
+      <a href="first.html">
+        <div class="product">
+          <img src="/Assets/Category-2.0-1.jpg" alt="சீப்பு">
+          <h3>Sugar</h3>
+          <p>5.00 ரூபாய்</p>
+          <button class="but">Add to Cart</button>
+        </div>
+      </a>
+
+      <a href="second.html">
+        <div class="product">
+          <img src="/Assets/Category-2.0-2.png" alt="சீப்பு">
+          <h3> Salt</h3>
+          <p>5.00 ரூபாய்</p>
+          <button class="but">Add to Cart</button>
+        </div>
+      </a>
+
+      <a href="third.html">
+        <div class="product">
+          <img src="/Assets/Category-2.0-3.png" alt="சீப்பு">
+          <h3> Oil</h3>
+          <p>5.00 ரூபாய்</p>
+          <button class="but">Add to Cart</button>
+        </div>
+      </a>
+
+      <a href="fourth.html">
+        <div class="product">
+          <img src="/Assets/Category-2.0-4.png" alt="சீப்பு">
+          <h3>Ragi Flour</h3>
+          <p>5.00 ரூபாய்</p>
+          <button class="but">Add to Cart</button>
+        </div>
+      </a>
+
+      <a href="third.html">
+        <div class="product">
+          <img src="/Assets/Category-2.0-5.png" alt="சீப்பு">
+          <h3> Milk</h3>
+          <p>5.00 ரூபாய்</p>
+          <button class="but">Add to Cart</button>
+        </div>
+      </a>
+
+      <a href="fourth.html">
+        <div class="product">
+          <img src="/Assets/Category-2.0-6.png" alt="சீப்பு">
+          <h3>Honey</h3>
+          <p>5.00 ரூபாய்</p>
+          <button class="but">Add to Cart</button>
+        </div>
+      </a>
+
+      <a href="third.html">
+        <div class="product">
+          <img src="/Assets/Category-2.0-7.png" alt="சீப்பு">
+          <h3>Rise</h3>
+          <p>5.00 ரூபாய்</p>
+          <button class="but">Add to Cart</button>
+        </div>
+      </a>
+
+      <a href="fourth.html">
+        <div class="product">
+          <img src="/Assets/Category-2.0-8.png" alt="சீப்பு">
+          <h3>Maggie</h3>
+          <p>5.00 ரூபாய்</p>
+          <button class="but">Add to Cart</button>
+        </div>
+      </a>
+      <a href="third.html">
+        <div class="product">
+          <img src="/Assets/Category-2.0-9.jpg" alt="சீப்பு">
+          <h3>Horlicks</h3>
+          <p>5.00 ரூபாய்</p>
+          <button class="but">Add to Cart</button>
+        </div>
+      </a>
+
+      <a href="fourth.html">
+        <div class="product">
+          <img src="/Assets/Category-2.0-10.jpg" alt="சீப்பு">
+          <h3>Pigeon Pea</h3>
+          <p>5.00 ரூபாய்</p>
+          <button class="but">Add to Cart</button>
+        </div>
+      </a>
+      <a href="fourth.html">
+        <div class="product">
+          <img src="/Assets/Category-2.0-11.png" alt="சீப்பு">
+          <h3>Sampar Powder</h3>
+          <p>5.00 ரூபாய்</p>
+          <button class="but">Add to Cart</button>
+        </div>
+      </a>
+      <a href="third.html">
+        <div class="product">
+          <img src="/Assets/Category-2.0-12.png" alt="சீப்பு">
+          <h3>Termaric Power</h3>
+          <p>5.00 ரூபாய்</p>
+          <button class="but">Add to Cart</button>
+        </div>
+      </a>
+
+      <a href="fourth.html">
+        <div class="product">
+          <img src="/Assets/Category-2.0-13.png" alt="சீப்பு">
+          <h3>Chilli Powder</h3>
+          <p>5.00 ரூபாய்</p>
+          <button class="but">Add to Cart</button>
+        </div>
+      </a>
+      <a href="third.html">
+        <div class="product">
+          <img src="/Assets/Category-2.0-14.png" alt="சீப்பு">
+          <h3>Chicken Masala</h3>
+          <p>5.00 ரூபாய்</p>
+          <button class="but">Add to Cart</button>
+        </div>
+      </a>
+
+      <a href="fourth.html">
+        <div class="product">
+          <img src="/Assets/Category-2.0-15.png" alt="சீப்பு">
+          <h3>Mutton Masala</h3>
+          <p>5.00 ரூபாய்</p>
+          <button class="but">Add to Cart</button>
+        </div>
+      </a>
+      <button class="last-showall">Show All</button>
+    </section>
+  </main>
+ 
+
+  <section class="about-section">
+    <div class="about-container">
+
+      <!-- Store Info -->
+      <div class="about-box">
+        <h3>Jessy Store</h3>
+        <p>
+          Your local one-stop shop for groceries and daily essentials, proudly serving Akkanayakkanpatti and surrounding
+          areas with care and quality.
+        </p>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="about-box">
+        <h3>Contact Us</h3>
+        <p>
+          <span>📍Thoothukudi, Tamil Nadu</span>
+          <span>📞 7339057370</span>
+          <span>📧 jessykastore190@gmail.com</span>
+        </p>
+      </div>
+
+      <!-- Categories -->
+      <div class="about-box">
+        <h3>Top Categories</h3>
+        <p>
+          Rice | Oil | Spices | Soaps | Baby Care | Snacks | Beverages | Toiletries
+        </p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="about-box">
+        <h3>Quick Links</h3>
+        <p>
+          Home | Products | About Us | Contact
+        </p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      © 2025 Jessy Store. All Rights Reserved.
+    </div>
+  </section>
+
+
+  <script src="auth.js"></script>
+
+
+</body>
+
+</html>
